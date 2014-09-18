@@ -21,20 +21,19 @@ Reference to R script called run_analysis.R that does the following on the raw d
 
 1. Merges the training and the test sets to create one data set.
 Files were merged into one large dataset with descriptive headings.
-Dataset name: "fullData"
+Dataset name: "fullData".
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 Headings only including "mean" and "std" were included in dataset - other excluded.
-New dataset created: "tidyData"
+New dataset created: "tidyData".
 
 3. Uses descriptive activity names to name the activities in the data set
 Activity names were put in dataset according to activity ID.
 
 4. Appropriately labels the data set with descriptive variable names. 
-unnecessary symbols removed from headings ("()" and "-").
+Unnecessary symbols removed from headings ("()" and "-").
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 New dataset created only with the average of each variable for each subject for each activity.
-Name of dataset: "subtidyData"
-
+Name of dataset: "subtidyData".
 "subtidyData" saved as text file named: "SamsungGalaxySubset.txt"
